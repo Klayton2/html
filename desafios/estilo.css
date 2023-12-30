@@ -1,0 +1,7 @@
+.tags {
+    display: none;
+}
+
+li:hover .tags {
+    display: inline-block;
+}

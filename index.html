@@ -5,8 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
     <title>Meu site</title>
+    <style>
+        body {
+            background-color: lightblue;
+        }
+    </style>
 </head>
-<body>
+<body style="background-color: lightblue; font-family: Arial, Helvetica, sans-serif; font-size: 20px;">
     <header>
         <h1>Entendendo Portugal</h1>
         <hgroup>
@@ -82,5 +87,18 @@
     </video>
     <h1>Inserindo vídeos com o Youtube</h1>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/FdE5G95B7Mg?si=RpAzY5qtEeFaakke" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <hgroup>
+        <h1 style="color: blue;">Estilos Inline</h1>
+        <h1 style="color: blue;">Capítulo 1</h1>
+        <h2 style="color: darkred;">Capítulo 1.1</h2>
+        <p style="text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus eligendi, sed soluta officiis ratione repellendus obcaecati voluptates perspiciatis odit eveniet tenetur eum atque vitae necessitatibus ipsam similique dolore voluptatem nulla!</p>
+        <h2 style="color: darkred;">Capítulo 1.2</h2>
+        <p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci dolores assumenda accusantium beatae consequatur molestiae quis quod laboriosam rem tempore rerum minima repellat neque ut, ducimus explicabo, maxime mollitia obcaecati.</p>
+        <h1 style="color: blue;">Capítulo 2</h1>
+        <h2 style="color: darkred;">Capítulo 2.1</h2>
+        <p style="text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur deserunt voluptatum vel laborum eius a, cumque doloribus voluptas vero beatae odio ullam repellat quo sequi facilis totam eum ea velit!</p>
+    </hgroup>
+        <!-- CSS Interno é quando se usa o código CSS na própria página, a tag <style> será colocada dentro da tag <head> e todo estilo dentro da tag será aplicado em toda a página, porém os estilos não seram aplicados em outras páginas-->
+        <!-- CSS Externo é quando se usa o código CSS em uma página própria pra ele, todo código dentro da página podera ser aplicado a qualquer página, para isso é só usar a tag <link> e chamar a página de CSS-->
 </body>
 </html>

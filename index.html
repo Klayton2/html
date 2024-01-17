@@ -6,8 +6,34 @@
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
     <title>Meu site</title>
     <style>
+        * {
+            height: 100%;
+            font-family: sans-serif;
+        }
         body {
-            background-color: lightblue;
+            background-image: linear-gradient(to right, #f1d8c9, #f2c3a7) ;
+        }
+        main {
+            background-color: white;
+            width: 600px;
+            padding: 10px;
+            margin: auto;
+            border-radius: 10px;
+            box-shadow: 5px 5px 15px #634f44b0;
+        }
+        h1 {
+            color: #f39209;
+            text-align: center;
+            text-shadow: 1px 1px 2px #9c5c03c4;
+        }
+        h2 {
+            color: #125189;
+        }
+        p {
+            text-align: justify;
+        }
+        div {
+            font: normal 2em Arial, Verdana, serif;
         }
     </style>
 </head>
@@ -100,5 +126,32 @@
     </hgroup>
         <!-- CSS Interno é quando se usa o código CSS na própria página, a tag <style> será colocada dentro da tag <head> e todo estilo dentro da tag será aplicado em toda a página, porém os estilos não seram aplicados em outras páginas-->
         <!-- CSS Externo é quando se usa o código CSS em uma página própria pra ele, todo código dentro da página podera ser aplicado a qualquer página, para isso é só usar a tag <link> e chamar a página de CSS-->
-</body>
+        <h1>Cores em CSS</h1>
+        <h2 style="background-color: blue;color: white;">Exemplos de cores</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum, iste asperiores! Iure laudantium eveniet praesentium repellat culpa vel magni enim molestias mollitia consectetur eligendi libero aut sint quia, nostrum fugiat.</p>
+        <h2 style="background-color: #0000ff;color: #ffffff;">Exemplos de cores</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut, eius corporis? Aspernatur accusantium illum similique corporis. Dolores, optio unde reiciendis architecto totam officia laudantium ex odit iste sunt soluta aperiam?</p>
+        <h2 style="background-color: rgb(0, 0, 255);color: rgb(255,255,255);">Exemplos de cores</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique in culpa totam corrupti inventore ab dignissimos cupiditate libero. Veniam, reiciendis molestiae delectus doloribus omnis error id vitae enim tempore libero!</p>
+        <h2 style="background-color: hsl(240,100%,50%);color: hsl(0,0% ,100%);">Exemplos de cores</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique in culpa totam corrupti inventore ab dignissimos cupiditate libero. Veniam, reiciendis molestiae delectus doloribus omnis error id vitae enim tempore libero!</p>
+        <h1>Gradientes em CSS</h1>
+        <p style="background-image: linear-gradient(to right,white,blue);">Testando gradientes</p>
+        <main>
+            <h1>Exemplo de cores</h1>
+            <h2>exemplos</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, distinctio aliquid porro magni saepe inventore placeat eaque dignissimos facilis esse repellat tenetur voluptatum minima cum illo, accusantium perspiciatis! Modi, corrupti.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, repudiandae? Vero recusandae explicabo deserunt ullam modi ab veritatis alias sunt? Doloremque a hic nobis enim, nostrum odio ipsum beatae porro.</p>
+        </main>
+        <!--shorthand font
+        font-style -> font-weigth -> font-size -> font-family
+        -->
+        <div>
+            <h1 style="text-align: center;">Tipos de alinhamento</h1>
+            <h2 style="text-align: left;">Subtítulo</h2>
+            <p style="text-align: justify; text-indent: 30px;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut fugit nihil ex incidunt laudantium cupiditate in molestiae ullam saepe corrupti sint, accusamus tenetur aliquam facilis amet, cumque odio? In, similique?</p>
+            <p style="text-align: justify; text-indent: 30px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae consectetur architecto iusto aliquid, illo qui debitis? Nulla labore suscipit dicta, ab laboriosam corporis aspernatur magni ducimus sint repudiandae error nam?</p>
+            <p style="text-align: justify; text-indent: 30px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, delectus facere! Provident necessitatibus repellat facilis unde. Nostrum, accusantium dolorum sunt, omnis rem nam ad voluptatum eaque, nemo qui voluptates corrupti.</p>
+        </div>
+    </body>
 </html>

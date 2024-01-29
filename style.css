@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(205, 255, 203);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: rgb(4, 109, 0);
+}
+
+a {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: darkred;
+}
+
+a:active {
+    color: yellow;
+}
+
+a::after {
+    content: '[Link]';
+    text-decoration: none;
+    font-weight: normal;
+    color: darkgrey;
+}
+
+div {
+    display: inline;
+    background-color: lightgray;
+    border: 1px solid black;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+}
+
+div > p {
+    display: none;
+}
+
+div:hover {
+    background-color: yellow;
+
+}
+
+div:hover > p {
+    display: block;
+}
+
+h1#principal {
+    text-align: center;
+    background-color: green;
+    color: white;
+}
+
+h2 {
+    color: rgb(51, 77 , 49 )
+}
+
+.basico {
+    color:#3c805e;
+}
+
+.intermediario {
+    color: #80793c;
+}
+
+.avancado {
+    color: #803c3c;
+}
